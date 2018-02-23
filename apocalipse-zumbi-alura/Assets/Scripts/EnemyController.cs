@@ -5,7 +5,18 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour {
 
 	public float VELOCIDADE;
-	public GameObject JOGADOR;
+	private GameObject JOGADOR;
+
+	void Start() {
+		
+		// Encontrando jogador pela tag
+		JOGADOR = GameObject.FindWithTag("Jogador");
+
+		// Escolhendo e ativando uma das skins do zumbi
+		int ZombieType = Random.Range(1, 28);
+		transform.GetChild(ZombieType).gameObject.SetActive(true);
+
+	}
 
 	void FixedUpdate() {
 

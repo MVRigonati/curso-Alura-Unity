@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
-		transform.position = JOGADOR.transform.position + new Vector3( -1, 10, -4 );
+		transform.position = JOGADOR.transform.position + new Vector3( -1, 16, -8 );
 		transform.rotation = new Quaternion( -0.5f, 0, 0, -0.9f );
 		DISTANCIA_CAM_JOGADOR = transform.position - JOGADOR.transform.position;
 

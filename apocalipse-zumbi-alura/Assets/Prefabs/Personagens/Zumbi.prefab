@@ -295,7 +295,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1385381977519954
 GameObject:
   m_ObjectHideFlags: 1
@@ -1419,7 +1419,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VELOCIDADE: 2
-  JOGADOR: {fileID: 0}
 --- !u!136 &136237718532349510
 CapsuleCollider:
   m_ObjectHideFlags: 1
