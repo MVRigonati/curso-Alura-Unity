@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apocalipse-zumbi-alura", "Assembly-CSharp.csproj", "{28BBA9C8-DEB4-3DCF-DCFA-4A7236070067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apocalipse-zumbi-alura", "Assembly-CSharp-Editor.csproj", "{8CCDAD77-FD0A-B1FF-E73F-B9392F3C051B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{28BBA9C8-DEB4-3DCF-DCFA-4A7236070067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28BBA9C8-DEB4-3DCF-DCFA-4A7236070067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28BBA9C8-DEB4-3DCF-DCFA-4A7236070067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CCDAD77-FD0A-B1FF-E73F-B9392F3C051B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CCDAD77-FD0A-B1FF-E73F-B9392F3C051B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CCDAD77-FD0A-B1FF-E73F-B9392F3C051B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CCDAD77-FD0A-B1FF-E73F-B9392F3C051B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
