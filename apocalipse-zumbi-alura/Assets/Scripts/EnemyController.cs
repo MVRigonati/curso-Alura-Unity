@@ -13,8 +13,8 @@ public class EnemyController : MonoBehaviour {
 		JOGADOR = GameObject.FindWithTag("Jogador");
 
 		// Escolhendo e ativando uma das skins do zumbi
-		int ZombieType = Random.Range(1, 28);
-		transform.GetChild(ZombieType).gameObject.SetActive(true);
+		int zombieType = Random.Range(1, 28);
+		transform.GetChild(zombieType).gameObject.SetActive(true);
 
 	}
 

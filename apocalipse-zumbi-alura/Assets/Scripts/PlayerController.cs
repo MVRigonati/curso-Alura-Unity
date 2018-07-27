@@ -69,7 +69,7 @@ public class PlayerController : MonoBehaviour {
 	void restartGame() {
 
 		if ( !IS_ALIVE && Input.GetButtonDown ("Fire1") ) {
-			SceneManager.LoadScene("scene 1");
+			SceneManager.LoadScene("Game");
 			Time.timeScale = 1;
 		}
 
